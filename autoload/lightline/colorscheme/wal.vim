@@ -5,16 +5,16 @@
 " Last Change: 2017/10/28 12:21:04.
 " =============================================================================
 
-let s:black = [ '', 232 ]
-let s:gray = [ '', 0 ]
-let s:white = [ '', 7 ]
-let s:darkblue = [ '', 4 ]
-let s:cyan = [ '', 6 ]
-let s:green = [ '', 2 ]
-let s:orange = [ '', 5 ]
-let s:purple = [ '', 1 ]
-let s:red = [ '', 1 ]
-let s:yellow = [ '', 3 ]
+let s:black = [ '#000000', 232 ]
+let s:gray = [ '#000000', 0 ]
+let s:white = [ '#000000', 7 ]
+let s:darkblue = [ '#000000', 4 ]
+let s:cyan = [ '#000000', 6 ]
+let s:green = [ '#000000', 2 ]
+let s:orange = [ '#000000', 5 ]
+let s:purple = [ '#000000', 1 ]
+let s:red = [ '#000000', 1 ]
+let s:yellow = [ '#000000', 3 ]
 
 let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}}
 let s:p.normal.left = [ [ s:black, s:purple ], [ s:cyan, s:gray ] ]
